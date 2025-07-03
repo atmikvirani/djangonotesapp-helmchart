@@ -1,5 +1,6 @@
 
 # Django Notes App
+Developed and deployed with ❤️ — by [**Atmik Virani**](https://github.com/atmikvirani)
 
 ## Overview
 
@@ -448,3 +449,6 @@ helm upgrade notesapp ./notesappchart -n nginx
 ```
 Visit the app in your browser:
 http://notes.local
+
+---
+◉ Helm chart for the repository [node-todo-cicd](https://github.com/LondheShubham153/node-todo-cicd) by Shubham Londhe.
