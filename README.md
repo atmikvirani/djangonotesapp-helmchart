@@ -451,4 +451,4 @@ Visit the app in your browser:
 http://notes.local
 
 ---
-◉ Helm chart for the repository [node-todo-cicd](https://github.com/LondheShubham153/node-todo-cicd) by Shubham Londhe.
+◉ Helm chart for the repository [django-notes-app](https://github.com/LondheShubham153/django-notes-app) by Shubham Londhe.
