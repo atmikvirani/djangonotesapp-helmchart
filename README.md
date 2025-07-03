@@ -3,17 +3,16 @@
 
 ## Overview
 
-Django Notes App is a full-stack web application for managing personal notes, featuring a RESTful API backend built with Django and a responsive React frontend. The project is containerized with Docker and deployed on Kubernetes using Helm charts with auto-scaling capabilities powered by the Horizontal Pod Autoscaler (HPA).
-
----
+Django Notes App is a full-stack web application designed for managing personal notes, featuring a Django REST Framework-based backend and a responsive React frontend. The application is fully containerized using Docker and orchestrated on Kubernetes using Helm charts for simplified deployment and versioning. It supports dynamic scaling through Kubernetes' Horizontal Pod Autoscaler (HPA), ensuring the app automatically adapts to load. Additionally, traffic routing is handled via the NGINX Ingress Controller, enabling clean, domain-based access to the application and laying the foundation for TLS support and production-grade networking.
 
 ## Features
 
-- Create, read, update, and delete notes via REST API  
-- Interactive React frontend with intuitive UI  
-- Kubernetes deployment with Helm charts for easy scaling and management  
-- Auto-scaling based on CPU utilization with HPA  
-- CI/CD pipeline configured using Jenkins for automated builds and deployments
+- Create, read, update, and delete notes via a RESTful Django API
+- Interactive React frontend with an intuitive and responsive UI
+- Containerized with Docker for consistent development and deployment
+- Kubernetes deployment using Helm charts for easy scaling and environment management
+- Auto-scaling based on CPU utilization with Kubernetes Horizontal Pod Autoscaler (HPA)
+- Ingress-based routing using NGINX Ingress Controller for clean domain access and TLS readiness
 
 ---
 
@@ -23,7 +22,6 @@ Django Notes App is a full-stack web application for managing personal notes, fe
 - **Frontend:** React.js  
 - **Containerization:** Docker  
 - **Orchestration:** Kubernetes, Helm  
-- **CI/CD:** Jenkins  
 - **Monitoring:** Kubernetes Metrics Server (required for HPA)  
 
 ---
