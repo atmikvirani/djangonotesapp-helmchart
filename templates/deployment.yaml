@@ -18,4 +18,6 @@ spec:
           image: {{ .Values.deployment.image }}
           ports:
             - containerPort: {{ .Values.deployment.containerPort }}
-
+          resources:
+            resources:
+            {{- toYaml .Values.resources | nindent 12 }}
