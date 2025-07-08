@@ -1,5 +1,5 @@
 appName: notes-app
-namespace: nginx
+namespace: hc
 
 deployment:
   replicas: 1
